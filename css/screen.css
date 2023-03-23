@@ -53,6 +53,8 @@ html {
   font-family: "droid-serif" serif, Helvetica, arial, sans-serif;
   color: hsl(198.0786026201, 10%, 30%);
   scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 /*
@@ -72,7 +74,12 @@ html {
     ---
     Default markup for typographic elements
 */
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: hsl(198.0786026201, 10%, 30%);
 }
 
